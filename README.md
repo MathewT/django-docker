@@ -2,11 +2,21 @@
 
 ## Commands
 
+### create new project site
+
 ```bash
 docker-compose run web django-admin startproject my_site_project  .
+```
 
+### exec (bash) into running web container
+
+```bash
 docker-compose  exec web /bin/bash
+```
 
+### launch psql from inside running web container
+
+```bash
 psql "host=db port=5432 dbname=postgres user=postgres"
 ```
 

@@ -51,3 +51,6 @@ https://docs.docker.com/samples/django/
 
 https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website
+
+https://django-bootstrap-v5.readthedocs.io/en/latest/quickstart.html

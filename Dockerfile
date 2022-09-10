@@ -1,4 +1,4 @@
-FROM python:3.9.13-alpine3.16
+FROM python:3.10.7-alpine3.16
 RUN apk add --update build-base bash bash-completion libffi-dev tzdata git postgresql-client postgresql-dev
 
 ENV PYTHONDONTWRITEBYTECODE=1
